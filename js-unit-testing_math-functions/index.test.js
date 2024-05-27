@@ -23,7 +23,7 @@ test("returns 10 if called with subtract(15, 5)", () => {
   expect(result).toBe(10);
 });
 
-test("returns a negative value if the second argument is greater than the first one ", () => {
+test("returns a negative value if the second argument is greater than the first one", () => {
   const result = subtract(5, 15);
   expect(result).toBeLessThan(0);
 });
@@ -53,7 +53,7 @@ test("returns 3 if called with divide(9, 3)", () => {
   expect(result).toBe(3);
 });
 
-test("returns ´You should not do this!´ if called with 0 as second argument", () => {
+test("returns You should not do this! if called with 0 as second argument", () => {
   const result = divide(9, 0);
   expect(result).toBe("You should not do this!");
 });
