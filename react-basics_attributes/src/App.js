@@ -9,11 +9,7 @@ function Article() {
         Type something:
       </label>
       <input id="inputField" className="aricle__input" type="text"></input>
-      <a
-        className="article__link"
-        href="https://react.dev/learn"
-        target="blank"
-      >
+      <a className="article__link" href="https://react.dev/learn">
         React is nice. Learn more about it!
       </a>
     </article>
